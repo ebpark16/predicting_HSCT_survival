@@ -6,7 +6,7 @@ This is a data science project that looks at the survival of pediatric patients 
 
 This dataset is taken from the UCI Machine Learning Repository, and can be found here: https://archive.ics.uci.edu/ml/datasets/Bone+marrow+transplant%3A+children. 
 
-This data was collected by researchers studying the long-term survival of children after receiving hematopoietic stem cell transplantation. There were two main focuses of the study: 1. compare the results of transplantation from perpipheral blood stem cells and bone marrow, 2. analyze the impact of CD34+ and CD3+ cell doses in the grafts. 
+This data was collected by researchers studying the long-term survival of children after receiving hematopoietic stem cell transplantation. There were two main focuses of the study: 1. compare the results of transplantation from peripheral blood stem cells and bone marrow, 2. analyze the impact of CD34+ and CD3+ cell doses in the grafts. 
 
 The data comprises data from 187 pediatric patients, with 37 attributes overall. These attributes contain information relating to the transplant donor and patient's ages, the type of disease that the patient has, the characteristics of the match between donor and patient, the CD34+ and CD3+ cell doses, recovery statistics, and whether the patient survived.
 
@@ -41,7 +41,7 @@ Below is an overview of the variables included in the dataset:
 - **CD3_x1e8_per_kg:** CD3+ cell dose per kg of recipient body weight (10^8/kg)
 - **CD3_to_CD34_ratio:** CD3+ cell to CD34+ cell ratio
 - **ANC_recovery:** time in days to neutrophils recovery, defined as neutrophils count >0.5 x 10^9/L
-- **PLT_recovery:** time in days to platelety recovery, defined as platelet count >50000/mm3
+- **PLT_recovery:** time in days to platelet recovery, defined as platelet count >50000/mm3
 - **acute_GvHD_II_III_IV:** development of acute graft versus host disease stage II or III or IV (yes, no)
 - **acute_GvHD_III_IV:** development of acute graft versus host disease stage III or IV (yes, no)
 - **time_to_acute_GvHD_III_IV:** time in days to development of acute graft versus host disease stage III or IV
